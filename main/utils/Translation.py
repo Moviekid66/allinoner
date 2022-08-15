@@ -8,9 +8,6 @@ class Language(object):
         START_TEXT = """
 **👋 Hᴇʏ, {}**\n
 <i>I'm Telegram Files Streaming Bot As Well Direct Links Generator</i>\n
-<i>Click On Help To Get More Information</i>\n
-<b><i><u>Warning 🚸</u></i></b>\n
-<b>🔞 Pron Contents Leads To Permanenet Ban You.</b>"""
 
         HELP_TEXT = """🔰 **How to Use Me ?**
 
@@ -21,7 +18,7 @@ class Language(object):
 
 <b><i><u>Warning 🚸</u></i></b>
 <b>🔞 Pron Contents Leads To Permanenet Ban You.</b></b>\n
-<i>Contact Developer Or Report Bugs</i> <b>: <a href='https://t.me/TechZBots_Support'>[ Click Here ]</a></b>"""
+<i>Contact Developer Or Report Bugs</i> <b>: <a href='https://t.me/+jCpfQ1ZrfLNiYjgx'>[ Click Here ]</a></b>"""
 
         ABOUT_TEXT = """
 <b>⚜ My Name : TG Direct Link Generator</b>\n
@@ -37,7 +34,7 @@ class Language(object):
 <b>📥 Download :</b> {}\n
 <b>🖥 Watch :</b> {}"""
 
-        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/TechZBots_Support) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
+        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/+LDB-V05W4b9lY2Ix) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
 
 # ------------------------------------------------------------------------------
 
@@ -47,8 +44,8 @@ class BUTTON(object):
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about')
         ],        
-        [InlineKeyboardButton("Updates Channel", url='https://t.me/TechZBots'),
-        InlineKeyboardButton("Repo", url='https://github.com/TechShreyash/TG-Direct-Link-Generator')]
+        [InlineKeyboardButton("Updates Channel", url='https://t.me/dldupdates),
+        
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
